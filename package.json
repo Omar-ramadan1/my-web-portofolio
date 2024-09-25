@@ -2,7 +2,7 @@
   "name": "threejs-3d-portfolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://Omar-ramadan1.github.io/my-web-portofolio",
+  "homepage": "https://Omar-ramadan1.github.io",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
