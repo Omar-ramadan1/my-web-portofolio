@@ -1,8 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
-
 import {
   About,
-  Contact,
+  //Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -15,6 +14,9 @@ import { useEffect } from "react";
 import { config } from "./constants/config";
 
 const App = () => {
+  
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
+  </BrowserRouter>
   useEffect(() => {
     if (document.title !== config.html.title) {
       document.title = config.html.title;
@@ -34,7 +36,7 @@ const App = () => {
         <Works />
         <Feedbacks />
         <div className="relative z-0">
-          <Contact />
+          {/* <Contact /> */}
           <StarsCanvas />
         </div>
       </div>
