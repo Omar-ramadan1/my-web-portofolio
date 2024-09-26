@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
@@ -12,16 +12,18 @@ const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
 );
 
-const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
-};
+// const emailjsConfig = {
+//   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+//   templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+//   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+// };
 
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
   const [form, setForm] = useState(INITIAL_STATE);
-  const [loading, setLoading] = useState(false);
+//   const [
+//     loading,
+//      setLoading] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement> | undefined
@@ -31,39 +33,39 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
-    if (e === undefined) return;
-    e.preventDefault();
-    setLoading(true);
+//   const handleSubmit = (e: React.FormEvent<HTMLFormElement> | undefined) => {
+//     if (e === undefined) return;
+//     e.preventDefault();
+//     setLoading(true);
 
-    emailjs
-      .send(
-        emailjsConfig.serviceId,
-        emailjsConfig.templateId,
-        {
-          form_name: form.name,
-          to_name: config.html.fullName,
-          from_email: form.email,
-          to_email: config.html.email,
-          message: form.message,
-        },
-        emailjsConfig.accessToken
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+//     emailjs
+//       .send(
+//         emailjsConfig.serviceId,
+//         emailjsConfig.templateId,
+//         {
+//           form_name: form.name,
+//           to_name: config.html.fullName,
+//           from_email: form.email,
+//           to_email: config.html.email,
+//           message: form.message,
+//         },
+//         emailjsConfig.accessToken
+//       )
+//       .then(
+//         () => {
+//           setLoading(false);
+//           alert("Thank you. I will get back to you as soon as possible.");
 
-          setForm(INITIAL_STATE);
-        },
-        (error) => {
-          setLoading(false);
+//           setForm(INITIAL_STATE);
+//         },
+//         (error) => {
+//           setLoading(false);
 
-          console.log(error);
-          alert("Something went wrong.");
-        }
-      );
-  };
+//           console.log(error);
+//           alert("Something went wrong.");
+//         }
+//       );
+//   };
 
   return (
     <div
@@ -78,7 +80,7 @@ const Contact = () => {
         <form
           // @ts-expect-error
           ref={formRef}
-          onSubmit={handleSubmit}
+        //  onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           {Object.keys(config.contact.form).map((input) => {
