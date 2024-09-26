@@ -27,6 +27,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import atadel from "./company/atadel.png";
+import alex from "./company/alex.jpeg";
 import airdefence from "./company/air_defence_college.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -34,6 +35,7 @@ import tesla from "./company/tesla.png";
 import hwaya from "./company/Hwaya.png";
 import algorithm from "./company/algorithm.png";
 import Bot from "./company/Bot.png";
+import Alex from "./company/alex.jpeg";
 
 import carrent from "./carrent.png";
 import Fel from "./projects/Fel.png";
@@ -70,6 +72,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  alex,
   reactjs,
   redux,
   tailwind,
@@ -84,6 +87,7 @@ export {
   starbucks,
   tesla,
   Bot,
+  Alex,
   carrent,
   Fel,
   kafey_rep,

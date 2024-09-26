@@ -30,6 +30,7 @@ import {
  // hwaya,
   Bot,
   Face_Auth,
+  alex,
   hemada,
 
   
@@ -161,7 +162,7 @@ const experiences: TExperience[] = [
     companyName: "Egyptian Navy",
     icon: airdefence,
     iconBg: "#383E56",
-    date: "March 2020 - December 2021",
+    date: "october 2020 - August 2021",
     points: [
       "Developed AI push-up counter program in Python to detect and count correct push-ups with trained data.",
       "Utilized multithreading to show images in real-time while processing the images in the background, increasing frame rate by 500%.",
@@ -174,13 +175,26 @@ const experiences: TExperience[] = [
     companyName: "algorithm",
     icon: algorithm,
     iconBg: "#ffffffff",
-    date: "July 2018 - September 2018",
+    date: "July 2018 - December 2018",
     points: [
-      "Developed a Flutter website, with the Collaborated directly with the company CEO El Khyma, for Ramadan month in 3 weeks",
+      "Gained hands-on experience with GitHub for version control, collaborating on code repositories, and managing pull requests, which enhanced my understanding of collaborative development practices.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Engaged in code reviews and pair programming sessions, which provided insights into best practices, coding standards, and team collaboration techniques.",
       
-      "I was one of the early adaptors to flutter web as i used the beta version to develop a website for the company",
+     
+    ],
+  },{
+    title: "Bachelor's degree student",
+    companyName: "Alexandria university",
+    icon: alex,
+    iconBg: "#ffffffff",
+    date: "october 2016 - may 2020",
+    points: [
+      "Actively participated in the Management Information Systems Club, collaborating with peers to explore the latest trends and technologies in the field of information systems.",
+      "Engaged in discussions and presentations on emerging technologies like cloud computing and big data analytics, promoting knowledge sharing and continuous learning among members.",
+      "Engaged in code reviews and pair programming sessions, which provided insights into best practices, coding standards, and team collaboration techniques.",
+      
+     
     ],
   },
 ];

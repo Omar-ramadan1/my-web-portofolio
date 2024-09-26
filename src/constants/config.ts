@@ -16,7 +16,7 @@ type TConfig = {
   };
   contact: {
     form: {
-      name: {
+      phone: {
         span: string;
         placeholder: string;
       };
@@ -24,10 +24,10 @@ type TConfig = {
         span: string;
         placeholder: string;
       };
-      message: {
-        span: string;
-        placeholder: string;
-      };
+        // message: {
+        //   span: string;
+        //   placeholder: string;
+        // };
     };
   } & TSection;
   sections: {
@@ -41,26 +41,27 @@ type TConfig = {
 export const config: TConfig = {
   html: {
     title: "",
-    fullName: "Omar Ramadan Ibrahim",
+    fullName: "Omar Ramadan Abdelkader",
     email: "omar.career47@gmail.com",
   },
   hero: {
-    name: "Omar Ramadan Ibrahim",
-    p: ["I am a professional Mobile developer", "with three years of experience in flutter"],
+    name: "Omar Ramadan Abdelkader",
+    p: ["Experienced Flutter developer", ""],
   },
   contact: {
     p: "Get in touch",
     h2: "Contact.",
     form: {
-      name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+      email: { span: "My Email", placeholder: "o.abdelkader05@gmail.com" },
+
+      phone: {
+        span: "My Phone",
+        placeholder: "+49152116413935",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
-      message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
-      },
+      // message: {
+      //   span: "Your Message",
+      //   placeholder: "What do you want to say?",
+      // },
     },
   },
   sections: {
