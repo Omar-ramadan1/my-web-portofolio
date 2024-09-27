@@ -39,6 +39,7 @@ import Alex from "./company/alex.jpeg";
 
 import carrent from "./carrent.png";
 import Fel from "./projects/Fel.png";
+import DetectId from "./projects/detectid.jpg";
 import kafey_rep from "./projects/kafey_rep.png";
 
 import pacademy from "./projects/pacdemy.jpg";
@@ -90,6 +91,7 @@ export {
   Alex,
   carrent,
   Fel,
+  DetectId,
   kafey_rep,
   Face_Auth,
   hemada,

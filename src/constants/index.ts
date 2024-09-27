@@ -37,6 +37,7 @@ import {
   hotlier,
   
   Fel,
+  DetectId,
   //kafey_rep,
   pacademy,
   
@@ -162,12 +163,11 @@ const experiences: TExperience[] = [
     companyName: "Egyptian Navy",
     icon: airdefence,
     iconBg: "#383E56",
-    date: "october 2020 - August 2021",
+    date: "October 2020 - August 2021",
     points: [
-      "Developed AI push-up counter program in Python to detect and count correct push-ups with trained data.",
-      "Utilized multithreading to show images in real-time while processing the images in the background, increasing frame rate by 500%.",
-      "Optimized program by converting the model into TensorFlow-light to work on raspberrypi.",
-      "Worked as a Teacher assistance in Air Defence College (Main role)",
+      "Support in maintaining hardware, software, and other systems",
+      "Assist with troubleshooting issues and provide technical support",
+      "Organize and maintain IT resources",
     ],
   },
   {
@@ -188,7 +188,7 @@ const experiences: TExperience[] = [
     companyName: "Alexandria university",
     icon: alex,
     iconBg: "#ffffffff",
-    date: "october 2016 - may 2020",
+    date: "October 2016 - May 2020",
     points: [
       "Actively participated in the Management Information Systems Club, collaborating with peers to explore the latest trends and technologies in the field of information systems.",
       "Engaged in discussions and presentations on emerging technologies like cloud computing and big data analytics, promoting knowledge sharing and continuous learning among members.",
@@ -305,6 +305,28 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
     AppleStore: "",
     PlayStore: "https://play.google.com/store/apps/details?id=com.Bot.face_auth&hl=en",
+  },{
+    name: "ID Scanner",
+    description:
+      "ID Scanner is a private app designed to scan passports, visas, and local IDs, with a focus on Arabic identification documents \n\n"
+      +"It is used by hotels and other businesses that need to efficiently collect customer data for bookings \n\n"
+      +" The app streamlines the data entry process, reducing manual errors and saving time for staff, making it a valuable tool for establishments requiring accurate and quick ID verification \n\n"
+   
+    +"The app is not available on the Play Store as it is tailored for private business use \n\n",
+      tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: DetectId,
+    sourceCodeLink: "https://github.com/",
+    AppleStore: "",
+    PlayStore: "https://bot-sys.com/passport-id-scanner-app/",
   },
   {
     name: "Hotlier",

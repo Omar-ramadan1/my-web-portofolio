@@ -54,12 +54,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
       >
-        A highly motivated and solution-oriented Flutter Developer with over 4 years of experience 
-      in building innovative mobile and desktop applications. Known for a keen interest in learning new skills and a proactive 
-      approach to problem-solving. Demonstrated ability to plan and execute projects efficiently. Recently I participated in contributions 
-      for the flutter community by creating C++ plugin check it out on <a href="https://pub.dev/packages/yuv_to_png"> pub.dev</a>, and participated in expanding my skill set to include 
-      Go projects. Committed to delivering high-quality results and eager to bring my unique blend of skills and experience to a dynamic and 
-      innovative team,
+        A highly motivated Flutter Developer with over 4 years of experience,
+         skilled in building innovative mobile and desktop applications.
+          I have successfully worked in teams and as a freelancer,
+           with the ability to handle entire projects independently.
+            I bring a proactive, solution-oriented mindset and a strong desire to continually learn and improve.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">

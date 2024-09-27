@@ -41,11 +41,11 @@ type TConfig = {
 export const config: TConfig = {
   html: {
     title: "",
-    fullName: "Omar Ramadan Abdelkader",
-    email: "omar.career47@gmail.com",
+    fullName: "Omar Abdelkader",
+    email: "o.abdelkader05@gmail.com",
   },
   hero: {
-    name: "Omar Ramadan Abdelkader",
+    name: "Omar Abdelkader",
     p: ["Experienced Flutter developer", ""],
   },
   contact: {
@@ -68,12 +68,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: ` A highly motivated and solution-oriented Flutter Developer with over 4 years of experience 
-      in building innovative mobile and desktop applications. Known for a keen interest in learning new skills and a proactive 
-      approach to problem-solving. Demonstrated ability to plan and execute projects efficiently. Recently I participated in contributions 
-      for the flutter community by creating C++ plugin check it out on pub.dev, and participated in expanding my skill set to include 
-      Go projects. Committed to delivering high-quality results and eager to bring my unique blend of skills and experience to a dynamic and 
-      innovative team, `,
+      content: `A highly motivated Flutter Developer with over 4 years of experience,
+      skilled in building innovative mobile and desktop applications.
+       I have successfully worked in teams and as a freelancer,
+        with the ability to handle entire projects independently.
+         I bring a proactive, solution-oriented mindset and a strong desire to continually learn and improve.`,
     },
     experience: {
       p: "What I have done so far",
