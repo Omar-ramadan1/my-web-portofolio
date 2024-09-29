@@ -137,7 +137,7 @@ const experiences: TExperience[] = [
     companyName: "BOT",
     icon: Bot,
     iconBg: "#383E56",
-    date: "March 2023 - present",
+    date: "March 2023 - Sep 2024",
     points: [
       "added of In app purchase , Store functionality include handling purchases, most of Groups functionality, fixing bugs and performance issues (main role) and integrated UI designs in an entertainment FootBall App",
       "Participated in developing ERP mobile application for Transfering money, which I was responsible for receiving, filtering and delivering the data for both Frontend Team and Backend team as the application has local storage 	and update the server when there is connection available",
@@ -149,7 +149,7 @@ const experiences: TExperience[] = [
     companyName: "Pixel Stamp",
     icon: atadel,
     iconBg: "#ffffffff",
-    date: "December 2021 – February 2022",
+    date: "December 2021 – March 2023",
     points: [
       "Developed an e-learning platform app called Pixel Academy and Hemada Academy with 10k+ downloads, using Flutter and Firebase",
       "Fixed memory leaks and performance issues in the app, resulting in a 30% increase in app speed and a 20% decrease in memory usage.",
@@ -349,12 +349,10 @@ const projects: TProject[] = [
     AppleStore: "https://appadvice.com/app/d9-87-d9-88-d8-aa-d9-84-d9-8a-d8-b1-d9-83-d8-a7-d8-b1-d8-af/1543597269",
     PlayStore: "https://apkpure.com/%D9%87%D9%88%D8%AA%D9%84%D9%8A%D8%B1-%D9%83%D8%A7%D8%B1%D8%AF/com.hoteliercard",
   },{
-    name: "hemada academy",
+    name: "Hemada academy",
     description:
-      "Managing external sites and the presence of the fingerprint device is difficult \n\n"
-      +"Monitor employees throughout the day and determine their presence during working hours, because attendance registration is by face and location \n\n"
-      +"Detailed and accurate reports on everything related to attendance and departure daily-week-monthly",
-    tags: [
+      "Hemada Academy is an  educational app designed to bridge the gap between an popular Hemada called Hemada in egypt and his students.\n \n Hemada Academy,  can  share lectures, exams, and questions, while students can easily access and respond to them. This seamless interaction fosters a dynamic learning environment"
+,    tags: [
       {
         name: "flutter",
         color: "blue-text-gradient",
