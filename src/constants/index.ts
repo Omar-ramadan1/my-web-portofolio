@@ -149,7 +149,7 @@ const experiences: TExperience[] = [
     companyName: "Pixel Stamp",
     icon: atadel,
     iconBg: "#ffffffff",
-    date: "December 2021 – March 2023",
+    date: "Jan 2021 – March 2023",
     points: [
       "Developed an e-learning platform app called Pixel Academy and Hemada Academy with 10k+ downloads, using Flutter and Firebase",
       "Fixed memory leaks and performance issues in the app, resulting in a 30% increase in app speed and a 20% decrease in memory usage.",
@@ -163,7 +163,7 @@ const experiences: TExperience[] = [
     companyName: "Egyptian Navy",
     icon: airdefence,
     iconBg: "#383E56",
-    date: "October 2020 - August 2021",
+    date: "October 2020 - Nov 2021",
     points: [
       "Support in maintaining hardware, software, and other systems",
       "Assist with troubleshooting issues and provide technical support",
@@ -175,7 +175,7 @@ const experiences: TExperience[] = [
     companyName: "algorithm",
     icon: algorithm,
     iconBg: "#ffffffff",
-    date: "July 2018 - December 2018",
+    date: "July 2018 - Jan 2019",
     points: [
       "Gained hands-on experience with GitHub for version control, collaborating on code repositories, and managing pull requests, which enhanced my understanding of collaborative development practices.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
