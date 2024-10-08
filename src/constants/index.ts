@@ -65,7 +65,7 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Senior Flutter Developer",
+    title: "Mid-Level Flutter Developer",
     icon: flutter,
   },
   
